@@ -4,17 +4,17 @@ A variety of new topics focused on Monika learning about — and chatting with y
 
 ## 🎲 Features
 
-New conversation topics about Dungeons & Dragons and other TTRPGs
-Questions from Monika about your characters, worldbuilding, and campaigns
-Roleplay-inspired dialogue and reactions
+- New conversation topics about Dungeons & Dragons and other TTRPGs
+- Questions from Monika about your characters, worldbuilding, and campaigns
+- Roleplay-inspired dialogue and reactions
 
 ## 🎲 Installation Instructions
 
-This submod is not yet ready to download.
-Instructions will be added once a public release is available.
+- This submod is not yet ready to download.
+- Instructions will be added once a public release is available.
 
 ## 🎲 Credits
 
-Created by: TiredGeek._
-Built for: Monika After Story
-Inspired by: countless late-night campaigns and too many natural 1s
+- Created by: TiredGeek._
+- Built for: Monika After Story
+- Inspired by: countless late-night campaigns and too many natural 1s
