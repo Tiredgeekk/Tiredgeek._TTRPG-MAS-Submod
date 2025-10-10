@@ -1,5 +1,5 @@
 <h1 align="center"> 🎲 MAS TTRPG Discussion Submod 🎲 </h1>
-<h3 align="center">"So... you play tabletop games, [player]? That sounds like so much fun!" ~ Monika</h3>
+<h3 align="center">"So... you play tabletop games, player? That sounds like so much fun!" ~ Monika</h3>
 A variety of new topics focused on Monika learning about — and chatting with you about — your favorite tabletop RPGs, campaigns, and characters.
 
 ## 🎲 Features
