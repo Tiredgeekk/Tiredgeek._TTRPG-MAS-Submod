@@ -217,10 +217,10 @@ label hv_c_summary:
     m 3rub "[persistent.char_name], a [persistent.char_race] [persistent.char_class]."
     m 3eub "Alignment: [persistent.char_alignment]"
     m 3lub "Stats:"
-   python:
-    stats_list = ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma"]
-    for s in stats_list:
-        renpy.say(persistent.monika_name, "{}: {}".format(s, persistent.char_stats[s]))
+    python:
+        stats_list = ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma"]
+        for s in stats_list:
+            renpy.say(persistent.monika_name, "{}: {}".format(s, persistent.char_stats[s]))
     m 3rub "Appearance: [persistent.char_hair] hair, [persistent.char_style] style, [persistent.char_eyes] eyes, [persistent.char_skin] skin."
     m 1sub "They sound amazing! I’d totally want them in my party, ehehe~"
     return
