@@ -14,8 +14,8 @@ A variety of new topics focused on Monika learning about — and chatting with y
 - Make sure you have the latest version of Monika After Story installed.
 - Locate your MAS game folder
 - On Windows: Usually Documents\RenPy\Monika After Story-XX\game
-  On macOS: ~/Documents/RenPy/Monika After Story-XX/game
-  On Linux: ~/RenPy/Monika After Story-XX/game
+-  On macOS: ~/Documents/RenPy/Monika After Story-XX/game
+-  On Linux: ~/RenPy/Monika After Story-XX/game
 - Copy the submods folder (TiredgeekTTRPG)
 - Place the folder into the Submod folder within your game folder!.
 - Launch the game
