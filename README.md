@@ -10,8 +10,16 @@ A variety of new topics focused on Monika learning about — and chatting with y
 
 ## 🎲 Installation Instructions
 
-- This submod is not yet ready to download.
-- Instructions will be added once a public release is available.
+- Download the submod
+- Make sure you have the latest version of Monika After Story installed.
+- Locate your MAS game folder
+- On Windows: Usually Documents\RenPy\Monika After Story-XX\game
+  On macOS: ~/Documents/RenPy/Monika After Story-XX/game
+  On Linux: ~/RenPy/Monika After Story-XX/game
+- Copy the submods folder (TiredgeekTTRPG)
+- Place the folder into the Submod folder within your game folder!.
+- Launch the game
+Your new TTRPG topic, random chatter, BRBs, farewells, compliments, dice roller, and character creator should now be accessible in-game.
 
 ## 🎲 Credits
 
