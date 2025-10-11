@@ -32,19 +32,21 @@ init 5 python:
 
 # Event label for the "heal first" compliment
 label mas_comp_heal:
-    m "Oh! You’d always heal me first? That’s so thoughtful~"
-    m "I’d feel so safe with you around in any adventure!"
+    m 3wublb "Oh! You’d always heal me first? That’s so thoughtful~"
+    m 5rublb "I’d feel so safe with you around in any adventure!"
     $ mas_gainAffection(2, bypass=True)
 return "love"
 
 # Event label for the "amazing bard" compliment
 label mas_comp_bard:
-    m "A bard, huh? I can totally picture you performing and charming everyone ehehe~"
+    m 7wublb "You really think so,[player]? Thank you!" 
+    m 5mublb "I'll be the bard, you my muse ehe..~"
     $ mas_gainAffection(2, bypass=True)
 return "love"
 
 # Event label for the "better than a Nat 20" compliment
 label mas_comp_nat20:
-    m "Haha! Better than a Nat 20? You make everything feel epic!"
+    m 4wubld "Better than a Nat 20?" 
+    m 5fkbltub "That makes me feel so special [player]!"
     $ mas_gainAffection(3, bypass=True)
 return "love"
