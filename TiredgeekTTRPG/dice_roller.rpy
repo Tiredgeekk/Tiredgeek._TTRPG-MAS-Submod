@@ -18,36 +18,36 @@ label hv_dice_roller:
     menu:
         "D4":
             $ diceType = 4
-          m 3eub "A D4! Those are tiny but sneaky… perfect for little surprises, ehehe~"
+            m 3eub "A D4! Those are tiny but sneaky… perfect for little surprises, ehehe~"
             jump ask_num_dice
         "D6":
             $ diceType = 6
-          m 3eub  "D6s! Classic and reliable… like a little rhythm to your adventures~"
+            m 3eub "D6s! Classic and reliable… like a little rhythm to your adventures~"
             jump ask_num_dice
         "D8":
             $ diceType = 8
-          m 3eub  "Ooh, D8s! They’re elegant and a bit unpredictable… I like that~"
+            m 3eub "Ooh, D8s! They’re elegant and a bit unpredictable… I like that~"
             jump ask_num_dice
         "D10":
             $ diceType = 10
-          m 3eub  "A D10! Perfect for rolling percentages or big choices… so exciting!"
+            m 3eub "A D10! Perfect for rolling percentages or big choices… so exciting!"
             jump ask_num_dice
         "D12":
             $ diceType = 12
-          m 3eub  "D12s are strong and powerful… they feel epic, don’t they? Ehehe~"
+            m 3eub "D12s are strong and powerful… they feel epic, don’t they? Ehehe~"
             jump ask_num_dice
         "D20":
             $ diceType = 20
-          m 3sub "Ah, the famous D20! Heroes’ fate lies in these rolls… I hope you get some lucky ones~"
+            m 3sub "Ah, the famous D20! Heroes’ fate lies in these rolls… I hope you get some lucky ones~"
             jump ask_num_dice
         "D100":
             $ diceType = 100
-          m 3wud "Whoa, D100! That’s huge… I can’t wait to see what crazy numbers we get, ehehe~"
+            m 3wud "Whoa, D100! That’s huge… I can’t wait to see what crazy numbers we get, ehehe~"
             jump ask_num_dice
 
 label ask_num_dice:
 
-   m 3hub "How many of these should I roll for you?"
+    m 3hub "How many of these should I roll for you?"
 
     $ numDice_str = renpy.input("Enter a number of dice:")
     $ numDice = int(numDice_str) if numDice_str.isdigit() else 1
@@ -99,5 +99,5 @@ label ask_num_dice:
         "Choose a different dice":
             jump hv_dice_roller
         "That’s it for now":
-           m 5hub "Okay! I had so much fun rolling with you~ I hope your next rolls are lucky too!"
+            m 5hub "Okay! I had so much fun rolling with you~ I hope your next rolls are lucky too!"
             return
