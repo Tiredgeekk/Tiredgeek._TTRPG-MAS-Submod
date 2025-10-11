@@ -13,16 +13,16 @@ init 5 python:
 
 label hv_c_character_creator:
 
-    m "Ooh~ you want to make a character? How fun!"
-    m "Let's start with the basics. What's their name?"
+    m 7sub "Ooh~ you want to make a character? How fun!"
+    m 3hub "Let's start with the basics. What's their name?"
 
     $ persistent.char_name = renpy.input("Enter your character's name:").strip()
     if persistent.char_name == "":
         $ persistent.char_name = "Unnamed Hero"
-    m "[persistent.char_name]? Nice choice!"
+    m 3hub "[persistent.char_name]? Nice choice!"
 
     # --- Race Selection ---
-    m "Alright, what race is [persistent.char_name]?"
+    m 4hub "Alright, what race is [persistent.char_name]?"
     menu:
         "Human":
             $ persistent.char_race = "Human"
@@ -122,7 +122,7 @@ label hv_c_other_classes:
 
 # --- Appearance ---
 label hv_c_appearance:
-    m "Let's talk appearance! You can type whatever you'd like~"
+    m 7eub "Let's talk appearance! You can type whatever you'd like~"
     $ persistent.char_hair = renpy.input("Hair color:") or ""
     $ persistent.char_style = renpy.input("Hair style:") or ""
     $ persistent.char_eyes = renpy.input("Eye color:") or ""
@@ -132,7 +132,7 @@ label hv_c_appearance:
 
 # --- Stat Choice ---
 label hv_c_stats_choice:
-    m "Now for the fun part — stats!"
+    m 4eub "Now for the fun part — stats!"
     menu:
         "Have Monika roll for me":
             call hv_c_stat_roll
@@ -169,7 +169,7 @@ label hv_c_stat_manual:
 
 # --- Alignment Selection ---
 label hv_c_alignment:
-    m "And finally... alignment!"
+    m 1eub "And finally... alignment!"
     menu:
         "Good":
             jump hv_c_good_align
@@ -179,7 +179,7 @@ label hv_c_alignment:
             jump hv_c_evil_align
 
 label hv_c_good_align:
-    m "Good, huh~ so noble! I like that."
+    m 5hub "Good, huh~ so noble! I like that."
     menu:
         "Lawful Good":
             $ persistent.char_alignment = "Lawful Good"
@@ -190,7 +190,7 @@ label hv_c_good_align:
     jump hv_c_summary
 
 label hv_c_neutral_align:
-    m "Neutral? Balanced and wise, I like that~"
+    m 5lub "Neutral? Balanced and wise, I like that~"
     menu:
         "Lawful Neutral":
             $ persistent.char_alignment = "Lawful Neutral"
@@ -201,7 +201,7 @@ label hv_c_neutral_align:
     jump hv_c_summary
 
 label hv_c_evil_align:
-    m "Evil, hm? How cheeky~"
+    m 5tub "Evil, hm? How cheeky~"
     menu:
         "Lawful Evil":
             $ persistent.char_alignment = "Lawful Evil"
@@ -213,15 +213,14 @@ label hv_c_evil_align:
 
 # --- Summary ---
 label hv_c_summary:
-    m "Alright, let’s see what we’ve got~"
-    m "[persistent.char_name], a [persistent.char_race] [persistent.char_class]."
-    m "Alignment: [persistent.char_alignment]"
-    m "Stats:"
+    m 3sub "Alright, let’s see what we’ve got~"
+    m 3rub "[persistent.char_name], a [persistent.char_race] [persistent.char_class]."
+    m 3eub "Alignment: [persistent.char_alignment]"
+    m 3lub "Stats:"
    python:
     stats_list = ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma"]
     for s in stats_list:
         renpy.say(persistent.monika_name, "{}: {}".format(s, persistent.char_stats[s]))
-    m "Appearance: [persistent.char_hair] hair, [persistent.char_style] style, [persistent.char_eyes] eyes, [persistent.char_skin] skin."
-    m "They sound amazing! I’d totally want them in my party, ehehe~"
+    m 3rub "Appearance: [persistent.char_hair] hair, [persistent.char_style] style, [persistent.char_eyes] eyes, [persistent.char_skin] skin."
+    m 1sub "They sound amazing! I’d totally want them in my party, ehehe~"
     return
-pos
