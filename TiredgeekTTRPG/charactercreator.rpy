@@ -4,7 +4,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="hv_c_character_creator",
-            category=["ttrpg"],
+            category=["TTRPG"],
             prompt="Let's make a character!",
             pool=True,
             unlocked=True
