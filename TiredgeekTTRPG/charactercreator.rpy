@@ -13,6 +13,16 @@ init 5 python:
 
 label hv_c_character_creator:
 
+  # Check if a character already exists
+    if persistent.char_name is not None:
+        m 7eud "Hey, you already have a character saved, what should I do?"
+        menu:
+            "View character details":
+                jump hv_c_summary
+            "Override with a new character":
+                pass  # just continue to the creation prompts
+
+
     m 7sub "Ooh~ you want to make a character? How fun!"
     m 3hub "Let's start with the basics. What's their name?"
 
@@ -183,33 +193,39 @@ label hv_c_good_align:
     menu:
         "Lawful Good":
             $ persistent.char_alignment = "Lawful Good"
+            jump hv_c_summary
         "Neutral Good":
             $ persistent.char_alignment = "Neutral Good"
+            jump hv_c_summary
         "Chaotic Good":
             $ persistent.char_alignment = "Chaotic Good"
-    jump hv_c_summary
+            jump hv_c_summary
 
 label hv_c_neutral_align:
     m 5lub "Neutral? Balanced and wise, I like that~"
     menu:
         "Lawful Neutral":
             $ persistent.char_alignment = "Lawful Neutral"
+            jump hv_c_summary
         "True Neutral":
             $ persistent.char_alignment = "True Neutral"
+            jump hv_c_summary
         "Chaotic Neutral":
             $ persistent.char_alignment = "Chaotic Neutral"
-    jump hv_c_summary
+            jump hv_c_summary
 
 label hv_c_evil_align:
     m 5tub "Evil, hm? How cheeky~"
     menu:
         "Lawful Evil":
             $ persistent.char_alignment = "Lawful Evil"
+            jump hv_c_summary
         "Neutral Evil":
             $ persistent.char_alignment = "Neutral Evil"
+            jump hv_c_summary
         "Chaotic Evil":
             $ persistent.char_alignment = "Chaotic Evil"
-    jump hv_c_summary
+            jump hv_c_summary
 
 # --- Summary ---
 label hv_c_summary:
@@ -224,3 +240,4 @@ label hv_c_summary:
     m 3rub "Appearance: [persistent.char_hair] hair, [persistent.char_style] style, [persistent.char_eyes] eyes, [persistent.char_skin] skin."
     m 1sub "They sound amazing! I’d totally want them in my party, ehehe~"
     return
+
