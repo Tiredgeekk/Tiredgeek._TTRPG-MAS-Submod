@@ -1,3 +1,14 @@
+# submod_header.rpy
+
+init -990 python in mas_submod_utils:
+
+    Submod(
+        author="Tiredgeekk",
+        name="TTRPG Topics Submod",
+        description=_(" Monika After Story TTRPG submod including over 30 new dialogues, RPG-themed compliments, an in-game character creator with race, class, alignment, and stats, plus a dice roller for D4–D100 with Monika."),
+        version="1.0.0"
+    )
+
 # Topic: TTRPG Discovery
 init 5 python:
     addEvent(
