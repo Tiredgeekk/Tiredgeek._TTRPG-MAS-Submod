@@ -3,7 +3,7 @@ init 5 python:
     addEvent(
         Event(
             persistent.event_database,
-            eventlabel="hv_dice_roller",
+            eventlabel="ttrpg_hv_dice_roller",
             category=["TTRPG"],
             prompt="Monika, can you roll a dice for me?",
             pool=True,
