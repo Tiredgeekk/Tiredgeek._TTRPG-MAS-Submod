@@ -3,7 +3,7 @@ init 5 python:
     addEvent(
         Event(
             persistent.event_database,
-            eventlabel="hv_c_character_creator",
+            eventlabel="ttrpg_hv_c_character_creator",
             category=["TTRPG"],
             prompt="Let's make a character!",
             pool=True,
