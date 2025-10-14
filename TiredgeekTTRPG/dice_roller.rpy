@@ -11,7 +11,7 @@ init 5 python:
         )
     )
 
-label hv_dice_roller:
+label ttrpg_hv_dice_roller:
 
     "Yay! I love rolling dice with you~ Which one should we use first?"
 
