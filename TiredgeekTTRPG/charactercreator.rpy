@@ -11,7 +11,7 @@ init 5 python:
         )
     )
 
-label hv_c_character_creator:
+label ttrpg_hv_c_character_creator:
 
   # Check if a character already exists
     if persistent.char_name is not None:
