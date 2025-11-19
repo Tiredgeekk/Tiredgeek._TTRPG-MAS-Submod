@@ -27,7 +27,7 @@ label ttrpg_hv_c_discovery:
     m 2eub "Have you ever heard of TTRPGs? That stands for Table Top Roleplaying Games!"
     m 4rub "There are so many different kinds, Dungeons and Dragons, Warhammer, Pathfinder.."
     m 4wub "The list goes on!"
-    m 5rub "I think I'm going to do some more research.. I'll keep you updated~"
+    m 5rub "I think I'm going to do some more research.. I'll keep you updated!~"
     return
 
 
