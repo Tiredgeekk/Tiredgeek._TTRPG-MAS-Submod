@@ -1,15 +1,15 @@
-Player Options: I want to take you to...  Forest,  Mountains, Floating Islands
+Player Options: I want to take you to...  Forest (Continues to Line 2),  Mountains, Floating Islands
 Forest Dialogue: 
 Monika- Oooo, a forest adventure. Well let's go (Player)
 Narrator- (Player) and Monika unpacked after the long drive to the Forest of Silvermist. The air was crisp with the smell of pine needles, and the soft mist that drifted between the trees gave everything a silver glow. As they hauled their tents and lanterns out of the trunk, Monika paused, clutching her elbows. She couldn’t shake the feeling that something was… off.
 Monika: (Player)… I didn’t want to scare you earlier, but… I think I saw a bear on the way up here. And, um… I’ve heard people say this forest is haunted by ghosts 
-Player Options: "There are no such thing as Ghosts, my love" , "Alright, Then we should build the tents before it turns nighttime"
+Player Options: "There are no such thing as Ghosts, my love (Continues on Line 7)" , "Alright, Then we should build the tents before it turns nighttime (Continues on Line 30)"
 "No such thing as Ghosts, my love" Dialogue:
 Narrator- (Player) had reassured Monika that her claims of the forest being haunted was just in her imagination. After a time of stares, Monika felt herself relax. She loved, and had full trust in (Player)
 Monika: Okay (Player). I trust you...
 Narrator- As Monika and (Player) had finished Monika's tent, they both were caught looking at (Player)'s tent- which was only a pile of tarp and poles. (Player) began picking up the poles to set up, before Monika stretched her hand out, taking hold of (Player)'s arm. 
 Monika- Wait... its becoming nighttime. And we have done so much already with setting up my tent. You can just sleep in mine. I know we have one-person tents, but I bet if we try, wn cram in one tent.
-Player Options- "Still scared of ghosts... (Continues on Line 13)" , "You got yourself a deal (Continues on Line 30)"
+Player Options- "Still scared of ghosts... (Continues on Line 13)" , "You got yourself a deal"
 "Still scared of ghosts..." Dialogue
 Narrator- (Player) teased Monika. Monika did not look too happy. Chuckling, the (Player) reassured her again, kissed her on the cheek to make up for it, and began to set up the second tent. Monika helped the best she could, pushing past the nerves in her stomach and the noises she could hear coming through the cracks in the trees around. Once all set up, in was time for bed. And so, Monika went to her bed, leaving (Player) alone in the woods, to smoulder the campfire they had built, and get ready for the next day. (Player) then went into the second tent alone, and started to drift to sleep when the piercing sound of Monika's screem woke him up.
 Monika: AAAAAAHHHHHHHHH!
@@ -27,4 +27,4 @@ Narrator- Monika then leaned into (Player), and gave a kiss on the cheek, before
 Monika: I'm so proud of you! You know, I really want to know, how you are able to defend the campsite so effectively. I know that black bears are more afraid of you than of it- that was one of the reseaons it did not charge at you, but still... I would have been frozen, unable to do anything. You know what?
 Player Options: "Yes, babe?"
 Monika: Let us cool down for a little in my tent. And you can tell me all about how those survivial skills you have, do we have a deal, (Player) the hero?
-"You got yourself a deal" Dialogue: 
+"Alright, Then we should build the tents before it turns nighttime" Dialogue: 
